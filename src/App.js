@@ -26,7 +26,7 @@ function App() {
       <div className="App bg-pink-50 min-h-screen">
         <img
           src="https://i.ibb.co/khYQh2K/icons8-chatgpt-64.png"
-          class="h-16 pt-5 pl-7 fixed"
+          class="h-16 pt-5 pl-7 static"
           alt="Flowbite Logo"
         />
         <div className="container mx-auto py-24 px-4 md:px-0 max-w-[720px]">
