@@ -10,7 +10,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://chatgpt-like-chatbot.onrender.com/chat", { prompt })
+      .post("https://chatgpt-likechatbot-backend12.onrender.com/chat", { prompt })
       .then((res) => {
         console.log(res.data);
         setResponse(res.data);
